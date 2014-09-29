@@ -20,5 +20,6 @@ public class music {
 	{
 		music test = new music();
 		test.play();
+		System.out.println("Sharing success"); 
 	}
 }
