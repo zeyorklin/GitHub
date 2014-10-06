@@ -14,6 +14,10 @@ public class music {
 		{
 		System.out.println("Bummer");
 		}
+		finally
+		{
+			System.out.println("this prints out no matter what");
+		}
 	}
 	
 	public static void main(String[] args)
@@ -22,4 +26,6 @@ public class music {
 		test.play();
 		System.out.println("Sharing success"); 
 	}
+	
+	
 }
